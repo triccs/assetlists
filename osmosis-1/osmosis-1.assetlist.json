@@ -890,6 +890,32 @@
         "png": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/vdl.png",
         "svg": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/vdl.svg"
       }
+    },
+    {
+      "description": "The native token of Gravity Bridge",
+      "denom_units": [
+        {
+          "denom": "ibc/F353449DB011B957FC250C5472700BD9A9101B5A8C43DC6C63A0C6114CE976B0",
+          "exponent": 0,
+          "aliases": ["ugraviton"]
+        },
+        {
+          "denom": "graviton",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/F353449DB011B957FC250C5472700BD9A9101B5A8C43DC6C63A0C6114CE976B0",
+      "name": "Graviton",
+      "display": "graviton",
+      "symbol": "GRAV",
+      "ibc": {
+        "source_channel": "channel-2",
+        "dst_channel": "channel-129",
+        "source_denom": "ugraviton"
+      },
+      "logo_URIs": {
+        "svg": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/grav.svg"
+      }
     }
   ]
 }
